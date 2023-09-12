@@ -42,7 +42,7 @@ public class FrequencyCounter {
         for (Map.Entry<Character, Integer> entry : charFrequency.entrySet()) {
             System.out.println("{" + entry.getKey() + "=" + entry.getValue() + "}");
         }
-
+//hello
         // Close the Scanner object
         scanner.close();
     }
