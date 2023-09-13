@@ -1,13 +1,12 @@
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
 public class FrequencyCounter {
-    public static void main(String[] args) {
-        // Initialize a Scanner object to read input from the user
-        Scanner scanner = new Scanner(System.in);
 
-        // Request the user to enter content
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your content: ");
         String content = scanner.nextLine();
 
@@ -42,8 +41,7 @@ public class FrequencyCounter {
         for (Map.Entry<Character, Integer> entry : charFrequency.entrySet()) {
             System.out.println("{" + entry.getKey() + "=" + entry.getValue() + "}");
         }
-//hello
-        // Close the Scanner object
+
         scanner.close();
     }
 }
